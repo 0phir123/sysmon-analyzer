@@ -77,7 +77,7 @@ Create a .env file in the project root and add the following environment variabl
 
 ## Testing
 
-Use Postman or another API testing tool to test the endpoints. Ensure that JWT authentication is properly configured and working.
+Use Postman or another API testing tool to test the endpoints. 
 
 
 
