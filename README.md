@@ -52,10 +52,10 @@ Create a .env file in the project root and add the following environment variabl
     ALLOWED_HOSTS=localhost,127.0.0.1
 
 3.Build and Run the Application:
-  sudo docker-compose up --build
-  sudo docker-compose exec web python manage.py migrate
-  sudo docker-compose exec web python manage.py createsuperuser
-  sudo docker run -p 8000:8000 sysmon_analyzer
+  `sudo docker-compose up --build`
+ ` sudo docker-compose exec web python manage.py migrate`
+  `sudo docker-compose exec web python manage.py createsuperuser`
+  `sudo docker run -p 8000:8000 sysmon_analyzer`
 
 4.Access the Application:
   The application should be running at http://localhost:8000. You can use Postman or another tool to interact with the API.
